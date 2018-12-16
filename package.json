@@ -1,0 +1,30 @@
+{
+  "name": "simulazionesame-e2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MorganMalavasi/E2.git"
+  },
+  "author": "Morgan Malavasi 186277",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MorganMalavasi/E2/issues"
+  },
+  "homepage": "https://github.com/MorganMalavasi/E2#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jest": "^23.6.0",
+    "node-fetch": "^2.3.0"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true
+  }
+}
